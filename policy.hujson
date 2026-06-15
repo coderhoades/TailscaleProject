@@ -21,7 +21,7 @@
     },
     {
         "action": "accept",
-        "src": ["user:privilegedcontractor@jeremyrhoades.com"],
+        "src": ["privilegedcontractor@jeremyrhoades.com"],
         "dst": ["tag:demotag:8080"]
     }
   ],
