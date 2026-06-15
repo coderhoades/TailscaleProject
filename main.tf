@@ -11,11 +11,11 @@ provider "tailscale" {
   tailnet = var.tailnet
 }
 
-resource "demo_key" "demo_app" {
-  reusable      = false
+resource "tailscale_key" "demo_app" {
+  reusable      = true
   ephemeral     = false
   preauthorized = true
-  tags          = ["tag:demo_key"]
+  tags          = ["tag:demotag"]
 }
 
 resource "tailscale_acl" "demo_policy" {

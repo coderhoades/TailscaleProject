@@ -1,0 +1,28 @@
+{
+  "groups": {
+    "group:employees": ["me@jeremyrhoades.com"],
+    "group:contractors": ["privilegedcontractor@jeremyrhoades.com", "simplecontractor@jeremyrhoades.com"]
+  },
+
+  "tagOwners": {
+    "tag:demotag": ["group:employees"]
+  },
+
+  "acls": [
+    {
+      "action": "accept",
+      "src": ["group:employees"],
+      "dst": ["*:*"]
+    },
+    {
+      "action": "accept",
+      "src": ["group:contractors"],
+      "dst": ["tag:demotag:80"]
+    },
+    {
+        "action": "accept",
+        "src": ["user:privilegedcontractor@jeremyrhoades.com"],
+        "dst": ["tag:demotag:443"]
+    }
+  ],
+}
