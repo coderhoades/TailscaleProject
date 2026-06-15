@@ -19,7 +19,7 @@ jobs:
         uses: tailscale/gitops-acl-action@v1
         with:
           api-key: ${{ secrets.TS_API_KEY }}
-          tailnet: ${{ env.TS_TAILNET }}
+          tailnet: ${{ secrets.TS_TAILNET }}
           action: apply
 
       - name: Test ACL
@@ -28,5 +28,5 @@ jobs:
         uses: tailscale/gitops-acl-action@v1
         with:
           api-key: ${{ secrets.TS_API_KEY }}
-          tailnet: TYA5XTaFXq11CNTRL
+          tailnet: ${{ secrets.TS_TAILNET }}
           action: test
