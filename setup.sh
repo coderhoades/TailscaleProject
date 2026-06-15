@@ -1,1 +1,0 @@
-tailscale up --authkey=$(cat ~/tailscale_auth_key.key) --hostname=demo-app

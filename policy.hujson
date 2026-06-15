@@ -1,7 +1,7 @@
 {
   "groups": {
     "group:employees": ["me@jeremyrhoades.com"],
-    "group:contractors": ["privilegedcontractordemo@passkey", "simplecontractor@passkey"]
+    "group:contractors": ["privilegedcontractordemo@passkey", "simplecontractordemo@passkey"]
   },
 
   "tagOwners": {
