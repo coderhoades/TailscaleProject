@@ -28,5 +28,5 @@ jobs:
         uses: tailscale/gitops-acl-action@v1
         with:
           api-key: ${{ secrets.TS_API_KEY }}
-          tailnet: ${{ env.TS_TAILNET }}
+          tailnet: TYA5XTaFXq11CNTRL
           action: test
