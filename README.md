@@ -32,8 +32,6 @@ Access is granted according to business need:
 
 This allows external users to access only the resources required for their engagement without granting broad VPN access to the entire environment.
 
----
-
 ## Architecture overview
 
 https://mermaid.ai/d/bd687d87-6bca-4685-96b0-cccbf45644ae
@@ -149,8 +147,6 @@ After synchronization completes:
 - Confirm group membership and resource permissions
 - Verify that policy changes were successfully deployed
 
----
-
 ## Validation
 
 Test each persona against the protected resources.
@@ -159,32 +155,32 @@ Test each persona against the protected resources.
 
 Expected access:
 
-- Internal Documentation Platform
-- Production Database
+- Internal Documentation Platform ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/employee-docs.png">](image) )
+- Production Database ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/employee-database.png">](image) )
 
 #### Privileged Contractor
 
 Expected access:
 
-- Internal Documentation Platform
-- Production Database
+- Internal Documentation Platform ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/privileged-docs.png">](image) )
+- Production Database ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/privileged-database.png">](image) )
 
 #### Simple Contractor
 
 Expected access:
 
-- Internal Documentation Platform
+- Internal Documentation Platform ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/simple-docs.png">](image) )
 
 Expected denied access:
 
-- Production Database
+- Production Database ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/simple-database.png">](image) )
 
 Successful and denied access attempts should align with the policy definition.
 
 ## How it went
 
 Overall, I was impressed by how quickly a functional environment could be assembled without needing to configure VPN infrastructure, firewall rules, or exposed ports.
-
+ 
 The most interesting aspect of the project was shifting from traditional network-centric thinking toward identity-based access controls. Instead of focusing on where users are connecting from, the solution focuses on who they are and what resources they should be allowed to access. The trick will be getting Enterprise economic buyers to understand this value and use case through our champions.
 
 The GitOps approach felt particularly relevant for enterprise environments. Managing access policies through source control provides change tracking, accountability, and a deployment workflow that most infrastructure teams are already comfortable with.
@@ -206,6 +202,8 @@ If I continued this project, I would focus on making it more production-ready:
 - Expand the environment to include additional applications and user personas to better simulate a real enterprise deployment.
 
 The current implementation demonstrates the access control model, but these additions would move the project closer to a production-grade enterprise deployment. The classic problem of "I'm having fun with this project but there's only so much time in the day". ❤️
+
+I'm excited for the opportunity to work with the SEs and our customers to truly understand from the inside what problems we're facing in the higher customer segments.
 
 ## AI disclosure
 
