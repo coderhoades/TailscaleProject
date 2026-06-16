@@ -6,7 +6,7 @@ One of the recurring challenges organizations face is providing temporary access
 
 To better understand real-world use cases and prepare for this assignment, I spoke with a former enterprise customer at one of the largest financial institutions in the United States. During that discussion, contractor access emerged as a common pain point. Their teams regularly need to provide external users access to specific resources, but traditional VPN-based approaches often result in lengthy onboarding processes, broad network access, and increased security risk.
 
-Having read the PDF assignment and acknowledging that the homework asked for something on the simpler side but with automation, I decided to use GitOps to manage the policy from Gitlab as in this real world example, the resources would already exist within the customer's environment.
+Having read the PDF assignment and acknowledging that the homework asked for something on the simpler side but with automation, I decided to use GitOps to manage the policy from Github as in this real world example, the resources would already exist within the customer's environment.
 
 This project demonstrates how Tailscale can be used to provide secure, identity-based access to internal resources based on user role rather than network location.
 
