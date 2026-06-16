@@ -155,25 +155,25 @@ Test each persona against the protected resources.
 
 Expected access:
 
-- Internal Documentation Platform ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/employee-docs.png">](image) )
-- Production Database ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/employee-database.png">](image) )
+- Internal Documentation Platform ( [image](https://github.com/coderhoades/TailscaleProject/blob/main/images/employee-docs.png) )
+- Production Database ( [image](https://github.com/coderhoades/TailscaleProject/blob/main/images/employee-database.png") )
 
 #### Privileged Contractor
 
 Expected access:
 
-- Internal Documentation Platform ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/privileged-docs.png">](image) )
-- Production Database ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/privileged-database.png">](image) )
+- Internal Documentation Platform ( [image](https://github.com/coderhoades/TailscaleProject/blob/main/images/privileged-docs.png) )
+- Production Database ( [image](https://github.com/coderhoades/TailscaleProject/blob/main/images/privileged-database.png) )
 
 #### Simple Contractor
 
 Expected access:
 
-- Internal Documentation Platform ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/simple-docs.png">](image) )
+- Internal Documentation Platform ( [image](https://github.com/coderhoades/TailscaleProject/blob/main/images/simple-docs.png) )
 
 Expected denied access:
 
-- Production Database ( [<img src="https://github.com/coderhoades/TailscaleProject/blob/main/images/simple-database.png">](image) )
+- Production Database ( [image](https://github.com/coderhoades/TailscaleProject/blob/main/images/simple-database.png) )
 
 Successful and denied access attempts should align with the policy definition.
 
